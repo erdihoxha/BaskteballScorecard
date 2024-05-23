@@ -12,6 +12,7 @@ html, body {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    border-radius: 10px;
 }
 .home{
     display: flex;
@@ -20,6 +21,7 @@ html, body {
     align-items: center;
     color: white;
     font-size: 25px;
+    width: 50%;
 }
 .guest{
     display: flex;
@@ -28,12 +30,16 @@ html, body {
     align-items: center;
     color: white;
     font-size: 25px;
+    width: 50%;
+
 }
 #score-home, #score-guest{
     font-family: 'Cursed Timer ULiL', sans-serif;
     font-size: 5rem;
     color:#f94f5d;
     align-self: center;
+    align-items: center;
+    justify-content: center;
     
     
 }
@@ -47,6 +53,7 @@ html, body {
     border-radius: 20px;
     margin: 10px;
     margin-top: 0;
+    max-width: 50%;
 }
 button{
     background-color: transparent;
@@ -55,4 +62,8 @@ button{
     border: 1px solid white;
     border-radius: 5px;
     cursor: pointer;
+}
+h2{
+    font-family: 'CARTOON ANIMATION', sans-serif;
+    letter-spacing: 2px;
 }
