@@ -5,6 +5,22 @@ html, body {
     justify-content: center;
     align-items: center;
 }
+.container-2{
+    width: 700px;
+    height: 500px;
+    background-color:  #1B244A;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#newGame{
+    margin-top: 10px;
+    background-color: rgba(245, 245, 245, 0.281);
+    color: white
+}
+
 .container {
     width: 700px;
     height: 500px;
@@ -62,8 +78,20 @@ button{
     border: 1px solid white;
     border-radius: 5px;
     cursor: pointer;
+    width: 33%;
+    height: 50px;
+    font-size: 25px;
+    font-family: 'Cursed Timer ULiL', sans-serif;
 }
 h2{
-    font-family: 'CARTOON ANIMATION', sans-serif;
+    font-family: 'Cursed Timer ULiL', sans-serif;
     letter-spacing: 2px;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    grid-gap: 10px;
+    width: 50%;
 }

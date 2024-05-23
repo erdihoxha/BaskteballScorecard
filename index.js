@@ -27,3 +27,9 @@ function add3guest(){
    scoreGuestValue += 3
     scoreGuest.innerText = scoreGuestValue
 }
+function newGame(){
+    scoreGuestValue = 0
+    scoreGuest.innerText = scoreGuestValue
+    scoreHomeValue = 0
+    scoreHome.innerText = scoreHomeValue
+}
